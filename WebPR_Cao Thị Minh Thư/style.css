@@ -1,0 +1,143 @@
+.nen{
+  background-image: linear-gradient(to right, #112D60, #DD83E0);
+}
+.container {
+  display: flex;
+}
+.box{
+  display:flex;
+}
+.right-box {
+  flex: 40%;
+  padding: 20px 100px;
+}
+.right-box .ig{
+  border-radius: 100px;
+  transition: box-shadow 0.3s ease;
+}
+ .right-box .ig:hover{
+  box-shadow: 15px 15px 10px rgba(249, 247, 247, 0.3);
+  transform: scale(0.9);
+}
+.left-box {
+  flex: 50%;
+}
+.left-box h2{
+  padding: 30px 0px;
+  font-size: 40px;
+  color:#0fe77e;
+}
+.left-box ul{
+  font-size: 30px;
+  padding: 40px 0px;
+  color:azure;
+  margin-top: -80px;
+}
+.or {
+  width: 100%;
+  height: 100vh;
+  padding: 10px 0px;
+  margin-top: -50px;
+  }
+  .or h3{
+  text-align: center;
+  color: #0fe77e;
+  font-size: 30px;
+  }
+  .or_main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  }
+  .or_main .or_image img{
+  width: 680px;
+  border-radius: 20px;
+  margin-left: -20px;
+  }
+  .or_main form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 10px;
+  }
+  .or .or_main form .input p{
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  }
+  .or .or_main form .input{
+  margin: 5px;
+  }
+  .or .or_main form .input input{
+  width: 300px;
+  height: 60px;
+  padding: 0px 20px;
+  border: 2px solid #cccccc;
+  background: #eeeeee;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+  }
+  .or .or_main form .input input:focus{
+  border: 5px solid #fac031;
+  }
+  .or .or_main form .or_btn{
+  padding: 10px 0;
+  background: #096ced;
+  color: white;
+  width: 40%;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+  }
+  .or .or_main form .or_btn:hover {
+  background: red;
+  transform: scale(1.1);
+  }
+  .ch{
+    margin-top: -90px;
+  }
+.ch h3{
+  text-align: center;
+  font-size: 30px;
+  color:#0fe77e;
+}
+  .ch input{
+  width: 300px;
+  height: 60px;
+  padding: 0px 20px;
+  margin: 10px;
+  border: 2px solid #cccccc;
+  background: #eeeeee;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+  }
+  .ch button{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    color:aliceblue;
+    border-radius: 15px;
+    background-color: #096ced;
+  }
+  .ch button:hover {
+    background: red;
+    transform: scale(1.1);
+    }
+  
+  .c{
+    display: flex;
+  }
+.footer h3{
+  text-align: center;
+  font-size: 30px;
+  color:#0fe77e;
+}
+.column{
+  flex:1;
+  font-size: 20px;
+  color:aliceblue;
+}
+
